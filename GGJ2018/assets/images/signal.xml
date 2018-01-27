@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="sprites.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="signal_01_01.png"	x="0"	y="43"	width="39"	height="40" frameX="-4" frameY="-4" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="signal_01_02.png"	x="79"	y="41"	width="38"	height="40" frameX="-5" frameY="-4" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="signal_01_03.png"	x="79"	y="0"	width="38"	height="40" frameX="-5" frameY="-4" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="signal_01_04.png"	x="78"	y="82"	width="38"	height="40" frameX="-5" frameY="-4" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="signal_01_05.png"	x="40"	y="41"	width="38"	height="40" frameX="-5" frameY="-4" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="signal_01_06.png"	x="117"	y="82"	width="38"	height="40" frameX="-5" frameY="-4" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="signal_01_07.png"	x="39"	y="84"	width="38"	height="40" frameX="-5" frameY="-4" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="signal_01_08.png"	x="40"	y="0"	width="38"	height="40" frameX="-5" frameY="-4" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="signal_01_09.png"	x="0"	y="84"	width="38"	height="40" frameX="-5" frameY="-4" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="signal_01_10.png"	x="0"	y="0"	width="39"	height="42" frameX="-5" frameY="-3" frameWidth="48" frameHeight="48"/>
+</TextureAtlas>

@@ -9,6 +9,10 @@ class Main extends Sprite
 	{
 		super();
 		Globals.init();
+		#if debug
 		addChild(new FlxGame(0, 0, PlayState));
+		#else
+		addChild(new FlxGame(0, 0, IntroState));
+		#end
 	}
 }

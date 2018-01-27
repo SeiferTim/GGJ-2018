@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="sprites.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="hazard_01_02.png"	x="44"	y="127"	width="43"	height="40" frameX="-3" frameY="-8" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="hazard_01_03.png"	x="44"	y="86"	width="43"	height="40" frameX="-3" frameY="-8" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="hazard_01_04.png"	x="0"	y="127"	width="43"	height="40" frameX="-3" frameY="-8" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="hazard_01_05.png"	x="0"	y="86"	width="43"	height="40" frameX="-3" frameY="-8" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="hazard_01_06.png"	x="88"	y="82"	width="43"	height="40" frameX="-3" frameY="-8" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="hazard_01_07.png"	x="133"	y="41"	width="43"	height="40" frameX="-3" frameY="-8" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="hazard_01_08.png"	x="46"	y="0"	width="43"	height="40" frameX="-3" frameY="-8" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="hazard_01_09.png"	x="132"	y="123"	width="43"	height="40" frameX="-3" frameY="-8" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="hazard_01_1.png"	x="45"	y="41"	width="43"	height="40" frameX="-3" frameY="-8" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="hazard_01_10.png"	x="132"	y="82"	width="43"	height="40" frameX="-3" frameY="-8" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="hazard_01_11.png"	x="88"	y="123"	width="43"	height="40" frameX="-3" frameY="-8" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="hazard_01_12.png"	x="90"	y="0"	width="43"	height="40" frameX="-3" frameY="-8" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="hazard_01_13.png"	x="89"	y="41"	width="43"	height="40" frameX="-3" frameY="-8" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="hazard_01_14.png"	x="0"	y="0"	width="45"	height="40" frameX="-2" frameY="-8" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="hazard_01_15.png"	x="0"	y="41"	width="44"	height="44" frameX="-3" frameY="-4" frameWidth="48" frameHeight="48"/>
+</TextureAtlas>

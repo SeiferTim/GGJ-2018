@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="sprites.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="door_01_red_01.png"	x="49"	y="49"	width="48"	height="48" frameX="-0" frameY="-0" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="door_01_red_02.png"	x="98"	y="49"	width="48"	height="48" frameX="-0" frameY="-0" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="door_01_red_03.png"	x="98"	y="0"	width="48"	height="48" frameX="-0" frameY="-0" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="door_01_red_04.png"	x="49"	y="147"	width="48"	height="48" frameX="-0" frameY="-0" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="door_01_red_05.png"	x="49"	y="98"	width="48"	height="48" frameX="-0" frameY="-0" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="door_01_red_06.png"	x="98"	y="98"	width="48"	height="48" frameX="-0" frameY="-0" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="door_01_red_07.png"	x="49"	y="0"	width="48"	height="48" frameX="-0" frameY="-0" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="door_01_red_08.png"	x="0"	y="147"	width="48"	height="48" frameX="-0" frameY="-0" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="door_01_red_09.png"	x="0"	y="98"	width="48"	height="48" frameX="-0" frameY="-0" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="door_01_red_10.png"	x="0"	y="49"	width="48"	height="48" frameX="-0" frameY="-0" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="door_01_red_11.png"	x="0"	y="0"	width="48"	height="48" frameX="-0" frameY="-0" frameWidth="48" frameHeight="48"/>
+</TextureAtlas>
