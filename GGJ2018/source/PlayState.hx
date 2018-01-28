@@ -61,6 +61,8 @@ class PlayState extends FlxState
 			{
 				#if flash
 				FlxG.sound.playMusic(AssetPaths.music__mp3);
+				#else
+				FlxG.sound.playMusic(AssetPaths.music__ogg);
 				#end
 				Globals.soundPlaying = true;
 			}

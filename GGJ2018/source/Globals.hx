@@ -34,13 +34,16 @@ class Globals
 		
 		levelMaps = [];
 		
-		//levelMaps.push(AssetPaths.level_1__png);
-		//levelMaps.push(AssetPaths.level_2__png);
-		//levelMaps.push(AssetPaths.level_3__png);
-		//levelMaps.push(AssetPaths.level_4__png);
+		levelMaps.push(AssetPaths.level_1__png);
+		levelMaps.push(AssetPaths.level_2__png);
+		levelMaps.push(AssetPaths.level_3__png);
+		levelMaps.push(AssetPaths.level_4__png);
 		//levelMaps.push(AssetPaths.level_5__png);
-		//levelMaps.push(AssetPaths.level_6__png);
+		levelMaps.push(AssetPaths.level_6__png);
 		levelMaps.push(AssetPaths.level_7__png);
+		levelMaps.push(AssetPaths.level_8__png);
+		//levelMaps.push(AssetPaths.level_9__png);
+		levelMaps.push(AssetPaths.level_10__png);
 		
 		
 	}

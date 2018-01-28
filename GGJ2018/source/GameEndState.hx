@@ -30,7 +30,8 @@ class GameEndState extends FlxState
 		scores.screenCenter();
 		add(scores);
 
-		
+		Globals.level = 0;
+		Globals.scores = [];
 		
 		FlxG.camera.flash(FlxColor.WHITE, .2, function() {
 			ready = true;
