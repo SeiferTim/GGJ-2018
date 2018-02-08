@@ -39,6 +39,12 @@ class MenuState extends FlxState
 		text.alpha = 0;
 		add(text);
 
+		#if flash
+		FlxG.sound.playMusic(AssetPaths.menu__mp3);
+		#else
+		FlxG.sound.playMusic(AssetPaths.menu__ogg);		
+		#end
+		
 		FlxG.camera.fade(FlxColor.BLACK, .5, true, function() {
 			FlxTween.tween(title, {alpha:1}, .66, {ease:FlxEase.circIn, type:FlxTween.ONESHOT, startDelay:.5, onComplete:function(_){
 				FlxTween.tween(text, {alpha:1}, .66, {ease:FlxEase.circIn, type:FlxTween.ONESHOT, startDelay:.5, onComplete:function(_) {
@@ -58,6 +64,7 @@ class MenuState extends FlxState
 			if (UIControl.wasJustReleased([UIControl.KEY_JUMP, UIControl.KEY_PAUSE, UIControl.KEY_SHOOT]))
 			{
 				ready = false;
+				FlxG.sound.music.fadeOut(.66);
 				FlxG.camera.fade(FlxColor.BLACK, .66, false, function() {
 					FlxG.switchState(new PlayState());
 				});

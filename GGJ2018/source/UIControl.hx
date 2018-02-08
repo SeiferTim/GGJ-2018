@@ -907,6 +907,13 @@ class UIControl
 		}
 		
 	}
+	public static inline function clear():Void
+	{
+		FlxG.keys.reset();
+		#if !FLX_NO_GAMEPAD
+		FlxG.gamepads.reset();
+		#end
+	}
 
 	
 }

@@ -51,8 +51,23 @@ class Player extends FlxSprite
 		var jump:Bool = UIControl.isPressed([UIControl.KEY_JUMP]);
 		var wasJump:Bool = UIControl.wasJustReleased([UIControl.KEY_JUMP]);
 	
+		
 		if (left && right)
-			left = right = false;
+		{
+			if (UIControl.wasJustPressed([UIControl.KEY_LEFT]))
+			{
+				right = false;
+			}
+			else if (UIControl.wasJustPressed([UIControl.KEY_RIGHT]))
+			{
+				left = false;
+			}
+			else
+			{
+				left = right = false;
+			}
+		}
+		
 			
 		if (left)
 		{
@@ -87,6 +102,7 @@ class Player extends FlxSprite
 		if (jump && isTouching(FlxObject.FLOOR) && jumpCool <= 0)
 		{
 			justJumped = true;
+			FlxG.sound.play(AssetPaths.Jump__wav);
 			jumpTimer = .44;
 			velocity.y = -1000;
 			if (animation.name != "jump")
@@ -122,6 +138,7 @@ class Player extends FlxSprite
 		acceleration.x = 0;
 		deathTimer = .25;
 		allowCollisions = FlxObject.NONE;
+		FlxG.sound.play(AssetPaths.Death__wav);
 		
 	}
 	

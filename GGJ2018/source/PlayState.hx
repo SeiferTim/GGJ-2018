@@ -76,6 +76,11 @@ class PlayState extends FlxState
 		UIControl.checkControls(elapsed);
 		if(ready && player.alive)
 		{
+			if (UIControl.wasJustPressed([UIControl.KEY_PAUSE]))
+			{
+				openSubState(new PauseSubState());
+				return;
+			}
 			Globals.levelTimer += elapsed;
 			player.movement(elapsed);
 		}
@@ -130,7 +135,8 @@ class PlayState extends FlxState
 		if (!ready)
 			return;
 		ready = false;
-		
+		player.velocity.set();
+		player.acceleration.set();
 		FlxG.camera.flash(FlxColor.YELLOW, .1, function() {
 			FlxG.camera.fade(FlxColor.BLACK, .33, false, function() {
 				Globals.scores.push(Globals.levelTimer);
@@ -215,6 +221,7 @@ class PlayState extends FlxState
 			T.kill();
 			if (!doorExit.alive)
 			{
+				FlxG.sound.play(AssetPaths.Pulse__wav);
 				R.animation.play("blink");
 				doorExit.revive();
 			}
@@ -356,7 +363,7 @@ class PlayState extends FlxState
 		add(emitter);
 		add(receiver);
 		add(grpMirrors);
-		grpTrans = new FlxTypedGroup<Transmission>();
+		grpTrans = new FlxTypedGroup<Transmission>(100);
 		add(grpTrans);
 		add(doorExit);
 		add(grpEnemies);

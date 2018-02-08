@@ -1,5 +1,6 @@
 package;
 
+import flixel.FlxG;
 import flixel.FlxGame;
 import openfl.display.Sprite;
 
@@ -14,5 +15,6 @@ class Main extends Sprite
 		#else
 		addChild(new FlxGame(0, 0, IntroState));
 		#end
+		FlxG.autoPause = false;
 	}
 }
